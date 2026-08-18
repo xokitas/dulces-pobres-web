@@ -33,7 +33,7 @@ export default function HeroSection() {
       <div className="relative z-10 flex h-svh flex-col px-6 py-8 sm:px-10 lg:order-1 lg:h-auto lg:justify-center lg:px-16 lg:py-12 xl:px-24">
         {/* Logo */}
         <motion.div initial="hidden" animate="show" variants={fadeUp} custom={0}>
-          <span className="font-display text-3xl leading-none text-harina [text-shadow:_0_2px_10px_rgb(0_0_0_/_45%)] sm:text-4xl lg:text-cacao lg:[text-shadow:none]">
+          <span className="font-display text-3xl leading-none text-harina [text-shadow:0_2px_10px_rgb(0_0_0/45%)] sm:text-4xl lg:text-cacao lg:text-shadow-none">
             Dulces{" "}
             <span className="italic text-rosa-fuerte">de Pobre</span>{" "}
             <Heart className="ml-1 inline h-5 w-5 -translate-y-1 fill-rosa-fuerte text-rosa-fuerte" />
@@ -47,7 +47,7 @@ export default function HeroSection() {
           animate="show"
           variants={fadeUp}
           custom={0.15}
-          className="mt-10 max-w-xl font-display text-4xl leading-[1.1] text-harina [text-shadow:_0_2px_14px_rgb(0_0_0_/_50%)] sm:mt-12 sm:text-5xl lg:mt-8 lg:text-6xl lg:text-cacao lg:[text-shadow:none]"
+          className="mt-10 max-w-xl font-display text-4xl leading-[1.1] text-harina [text-shadow:0_2px_14px_rgb(0_0_0/50%)] sm:mt-12 sm:text-5xl lg:mt-8 lg:text-6xl lg:text-cacao lg:text-shadow-none"
         >
           Hacemos dulces con las manos, para que te los comas con el{" "}
           <span className="italic text-rosa-fuerte">corazón</span>.
@@ -60,7 +60,7 @@ export default function HeroSection() {
             animate="show"
             variants={fadeUp}
             custom={0.3}
-            className="max-w-md text-base leading-relaxed text-harina/90 [text-shadow:_0_1px_8px_rgb(0_0_0_/_40%)] sm:text-lg lg:text-cacao/70 lg:[text-shadow:none]"
+            className="max-w-md text-base leading-relaxed text-harina/90 [text-shadow:0_1px_8px_rgb(0_0_0/40%)] sm:text-lg lg:text-cacao/70 lg:text-shadow-none"
           >
             Dulces artesanales hechos con cariño, ingredientes seleccionados
             y ese toque casero que se recuerda.

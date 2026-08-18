@@ -20,8 +20,8 @@ export interface Testimonial {
 export interface OrderFormData {
   name: string;
   phone: string;
-  zone: string;
+  address: string;
   date: string;
   time: string;
-  notes: string;
+  notes?: string;
 }
