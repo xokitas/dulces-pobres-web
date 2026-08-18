@@ -1,4 +1,3 @@
-import { Quote } from "lucide-react";
 import type { Testimonial } from "@/lib/types";
 
 export default function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
