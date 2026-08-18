@@ -17,7 +17,7 @@ export default function HeroSection() {
           className="grain absolute inset-0 h-full w-full"
         >
           <Image
-            src="/images/hero-manos.png"
+            src="/images/hero-manos.webp"
             alt="Manos preparando un dulce artesanal"
             fill
             priority
